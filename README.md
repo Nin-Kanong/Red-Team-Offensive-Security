@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-Looking for an Internship or Junior Role in Cybersecurity
+IT Security 
 </p>
 
 ---
