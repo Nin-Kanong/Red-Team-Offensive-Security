@@ -1,5 +1,8 @@
 <h1 align="center">👋 Hi, I'm <span style="color:#00b0ff;">NIN KANONG (K4N0NG)</span></h1>
 
+<img width="1025" height="500" alt="k4n0ng" src="https://github.com/user-attachments/assets/f2b8f77a-9215-4c28-8648-c23acae275af" />
+
+
 <p align="center">
 🎓 <b>IT Student | Cybersecurity Enthusiast | Ethical Hacker</b><br>
 📍 Norton University, Phnom Penh | Passionate about Network Engineering, Penetration Testing, Risk Assessment & Process Automation<br>
