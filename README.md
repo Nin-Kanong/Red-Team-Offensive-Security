@@ -10,9 +10,10 @@
 </p>
 
 <p align="center">
-IT Security 
+IT Security & Governace
 </p>
 
+<h3 align="center"> Currenly I'm preparing for <strong>CPTS</strong>, This project now I'm stop a moment.</h3>
 ---
 <!-- Professional Cybersecurity Portfolio by NIN KANONG (K4N0NG) -->
 
