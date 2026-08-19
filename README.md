@@ -215,10 +215,10 @@ Real-world simulations and academic work demonstrating applied skills:
 ### 🧰 Technical Skills
 | Category | Tools & Technologies |
 |-----------|----------------------|
-| **Networking** | Nmap, Wireshark, Netcat, Shodan, TCP/IP analysis |
+| **Networking** | Nmap, Wireshark, Netcat, Shodan, TCP/IP analysis, Windows Server, CCNA|
 | **Pentesting** | Metasploit, SQLMap, Hydra, JohnTheRipper, DVWA |
 | **Web Security** | Burp Suite, OWASP ZAP, Dirb, Nikto, Gobuster |
-| **Scripting** | Python (automation, enumeration), Bash |
+| **Scripting** | Python (automation, enumeration), Bash, PowerShell |
 | **Operating Systems** | Kali Linux (primary), Ubuntu, Windows |
 | **Reporting** | Markdown, Typora, LibreOffice, Obsidian |
 | **Full Stack (Learning)** | Flask, Django, HTML/CSS, JavaScript, REST APIs |
@@ -237,7 +237,7 @@ I’m actively expanding my knowledge through:
 - 🌐 **Web App Security** (OWASP Top 10, bug bounty fundamentals)  
 - 🛡️ **Cyber Defense, SIEM, and Incident Response basics**  
 - 🤖 **Automation** (Python scripts for recon, reporting, and enumeration)  
-- 🧱 **Full-Stack Development** (Flask/Django for security tooling)
+- 🧱 **front End Developer** HTML/CSS, Javascript, React
 
 ### 🎯 Career Goal
 To become a **Professional Ethical Hacker / Penetration Tester**, contributing to real-world cybersecurity operations and helping organizations strengthen their digital defenses — especially in the **financial and digital banking sector**.
