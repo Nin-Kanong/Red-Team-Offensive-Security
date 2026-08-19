@@ -27,15 +27,15 @@ IT Security & Governace
 ---
 
 ## 📚 Table of Contents
+
 1. [About Me](#-about-me)
 2. [About This Repository](#-about-this-repository)
-3. [Labs & Exercises](#-labs--exercises)
+3. [Repository Structure](#-repository-structure)
 4. [Projects](#-projects)
 5. [Writeups & Documentation](#-writeups--documentation)
 6. [Certifications & Skills](#-certifications--skills)
-7. [Currently Learning & Goals](#-currently-learning)
+7. [Currently Learning & Goals](#-currently-learning--goals)
 8. [Connect With Me](#-connect-with-me)
-
 ---
 
 ## 👤 About Me
@@ -66,26 +66,104 @@ It reflects my **hands-on practice**, **analytical mindset**, and **commitment t
 
 ---
 
-## 🧪 Labs & Exercises
+## Repository Structure
 
 Each folder contains structured, documented labs with clear objectives, methodologies, and results.
 
-| Category | Description |
-|-----------|-------------|
-| [1. Information Gathering](https://github.com/Nin-Kanong/pentest-writeups/tree/main/1.%20Information_Gathering) | Shodan, Recon-ng, Google Dorking |
-| [2. Scanning Network](https://github.com/Nin-Kanong/pentest-writeups/tree/main/2.%20Scanning_Network) | Nmap, Netcat, network fingerprinting |
-| [3. Vulnerability Assessment](https://github.com/Nin-Kanong/pentest-writeups/tree/main/3.%20Vulnerability%20Assessment) | Nessus, OpenVAS, Metasploit scans |
-| [4. Gaining Access](https://github.com/Nin-Kanong/pentest-writeups/tree/main/4.%20%20Gaining_Access) | DVWA & Metasploit exploitation |
-| [5. Maintaining Access](https://github.com/Nin-Kanong/pentest-writeups/tree/main/5.%20Maintaining_Access) | Post-exploitation & persistence |
-| [6. Privilege Escalation](https://github.com/Nin-Kanong/pentest-writeups/tree/main/6.%20Privilege_Escalation) | Windows & Linux escalation |
-| [7. Covering Tracks](https://github.com/Nin-Kanong/pentest-writeups/tree/main/7.%20Covering_Tracks) | Log cleanup & stealth techniques |
-| [8. Reporting](https://github.com/Nin-Kanong/pentest-writeups/tree/main/8.%20Reporting) | Professional pentest reports |
-| [9. Practice Labs](https://github.com/Nin-Kanong/pentest-writeups/tree/main/9.%20Practice_Labs) | Nmap, Bandit, VulnHub, HackTheBox |
-| [10. Challenges](https://github.com/Nin-Kanong/pentest-writeups/tree/main/A.%2010.%20Challenges) | CTFs & lab challenges |
-| [11. Scripting](https://github.com/Nin-Kanong/pentest-writeups/tree/main/B.%2011.%20Scripting) | Python & Bash automation |
-| [12. Project](https://github.com/Nin-Kanong/pentest-writeups/tree/main/C.%2012.%20Projects) | Academic & simulation projects |
-| [13. Certifications](https://github.com/Nin-Kanong/pentest-writeups/tree/main/D.%2013.%20Certifications) | Course certificates |
-| [14. About Me](https://github.com/Nin-Kanong/pentest-writeups/tree/main/E.%2014.%20About_Me) | CV, cover letter, bio |
+<details>
+<summary><b>01. Information Gathering</b></summary>
+
+01. Passive Reconnaissance (Footprinting)  
+02. Active Reconnaissance  
+
+</details>
+
+<details>
+<summary><b>02. Scanning Network</b></summary>
+
+01. Host Discovery  
+02. Port Scanning  
+03. Service Version Detection  
+04. Operating System (OS) Detection  
+05. Nmap & Wireshark  
+
+</details>
+
+<details>
+<summary><b>03. Vulnerability Assessment</b></summary>
+
+01. Network Vulnerability Assessment  
+02. Web Application Vulnerability Assessment  
+03. Host-Based Vulnerability Assessment  
+04. Wireless Vulnerability Assessment  
+
+</details>
+
+<details>
+<summary><b>04. Gaining Access</b></summary>
+
+01. Exploiting Network Services  
+02. Web Application Exploits  
+03. Password Attacks  
+04. Exploiting Known Vulnerabilities  
+05. Social Engineering  
+06. Wireless Attack  
+07. DoS and DDoS Attack  
+08. Man-In-The-Middle Attack  
+
+</details>
+
+<details>
+<summary><b>05. Post Exploitation</b></summary>
+
+01. Privilege Escalation  
+02. Maintaining Access  
+
+</details>
+
+<details>
+<summary><b>06. Covering Tracks</b></summary>
+
+01. Overview  
+02. Log Manipulation  
+03. Command History  
+04. Artifact Removal  
+05. Timestomping  
+06. Anti-Forensics  
+
+</details>
+
+<details>
+<summary><b>07. Reporting</b></summary>
+
+01. Penetration Testing Report  
+02. SEHE Report  
+
+</details>
+
+<details>
+<summary><b>08. Programming & Scripting</b></summary>
+
+01. Python Programming  
+02. C and C++ Programming  
+
+</details>
+
+<details>
+<summary><b>09. Practice Labs</b></summary>
+
+01. TryHackMe  
+02. PortSwigger Web Academy  
+
+</details>
+
+<details>
+<summary><b>10. Final Assessment</b></summary>
+
+01. SEHE Final Exam  
+
+</details>
+
 
 📘 **Methodology**: Every lab follows a standardized structure to mirror real-world penetration testing workflows.
 
