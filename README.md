@@ -244,21 +244,6 @@ To become a **Professional Ethical Hacker / Penetration Tester**, contributing t
 
 ---
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nin-Kanong&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nin-Kanong&layout=compact&theme=radical" alt="Top Languages"/>
-</p>
-
-📊 **Activity Highlights**:
-- ✅ Weekly commits to labs and documentation  
-- 📝 Consistent technical writing and reporting  
-- 🛠️ Building reusable security automation tools  
-
----
-
 ## 🤝 Connect With Me
 
 - 💼 **LinkedIn**: [linkedin.com/in/nin-kanong](https://www.linkedin.com/in/nin-kanong/)  
