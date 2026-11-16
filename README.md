@@ -1,260 +1,143 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#00b0ff;">NIN KANONG (K4N0NG)</span></h1>
+
+
+<div align="center">
+
 
 <img width="1025" height="500" alt="k4n0ng" src="https://github.com/user-attachments/assets/f2b8f77a-9215-4c28-8648-c23acae275af" />
 
 
-<p align="center">
-🎓 <b>IT Student | Cybersecurity Enthusiast | Ethical Hacker</b><br>
-📍 Norton University, Phnom Penh | Passionate about Network Engineering, Penetration Testing, Risk Assessment & Process Automation<br>
-🧩 Building my cybersecurity portfolio step by step
-</p>
+# Red Team & Offensive Security
 
-<p align="center">
-IT Security & Governace
-</p>
+## Nin Kanong (k4n0ng)
+**Network Engineering & Security · Aspiring Penetration Tester · IT Security**
 
-<h3 align="center"> Currenly I'm preparing for <strong>CPTS</strong>, This project now I'm stop a moment.</h3>
----
-<!-- Professional Cybersecurity Portfolio by NIN KANONG (K4N0NG) -->
+![Focus](https://img.shields.io/badge/Focus-Penetration%20Testing-bb2638?style=flat-square)
+![Portfolio](https://img.shields.io/badge/Type-Hands--on%20Learning-215f9a?style=flat-square)
+![Environment](https://img.shields.io/badge/Practice-Authorized%20Labs-20845c?style=flat-square)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Role-Student%20%7C%20Ethical%20Hacker-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/OS-Kali%20Linux-black?style=for-the-badge&logo=kali-linux"/>
-  <img src="https://img.shields.io/badge/Language-English-blueviolet?style=for-the-badge"/>
-</p>
+**Understand the weakness. Validate the risk. Strengthen the defense.**
+
+[GitHub Profile](https://github.com/Nin-Kanong) · [LinkedIn](https://www.linkedin.com/in/nin-kanong/) · [Online Portfolio](https://portfolio-sandy-seven-72.vercel.app/)
+
+</div>
+
+
+
+
 
 ---
 
-## 📚 Table of Contents
+## 👋 About Me
 
-1. [About Me](#-about-me)
-2. [About This Repository](#-about-this-repository)
-3. [Repository Structure](#-repository-structure)
-4. [Projects](#-projects)
-5. [Writeups & Documentation](#-writeups--documentation)
-6. [Certifications & Skills](#-certifications--skills)
-7. [Currently Learning & Goals](#-currently-learning--goals)
-8. [Connect With Me](#-connect-with-me)
----
+I'm **Nin Kanong (K4N0NG)**, an IT student at **Norton University in Phnom Penh, Cambodia**, building practical skills in **penetration testing, network security, vulnerability assessment, and security automation**.
 
-## 👤 About Me
+My goal is to become a professional penetration tester, with a particular interest in securing **financial systems and digital banking services**. I'm studying toward the **Hack The Box Certified Penetration Testing Specialist (CPTS)** certification; I do **not** claim to hold the certification yet.
 
-I’m **NIN KANONG**, an IT student at **Norton University** in Phnom Penh, Cambodia, with a strong focus on **cybersecurity, network engineering, and ethical hacking**.  
+This repository is a learning portfolio: it contains study notes, security exercises, and lab documentation. **Topics and folders do not necessarily indicate completed assessments.**
 
-Driven by curiosity and a hands-on mindset, I’ve completed **15+ structured cybersecurity labs** covering vulnerability scanning, traffic analysis, exploitation, and post-exploitation techniques. I use **Kali Linux** as my primary OS and am proficient with tools like **Nmap, Wireshark, Metasploit, Burp Suite, SQLMap, and Nessus**.
+## Explore the Repository
 
-I’m especially interested in **financial cybersecurity and digital banking security**, and I aim to apply my technical and analytical skills in a real-world environment where I can grow as a **penetration tester or security analyst**.
+| Section | What you'll find |
+|:--|:--|
+| [1. Information Gathering](./1.%20Information_Gathering) | Passive and active reconnaissance concepts |
+| [2. Network Scanning](./2.%20Scanning_Network) | Host discovery, ports, services, and network analysis |
+| [3. Vulnerability Assessment](./3.%20Vulnerability%20Assessment) | Network, web, and host vulnerability assessment |
+| [4. Gaining Access](./4.%20%20Gaining_Access) | Controlled exploitation and authentication-security labs |
+| [5. Privilege escalation](https://github.com/Nin-Kanong/Red-Team-Offensive-Security/tree/main/5.%20Privilege_Escalation) | From normal User to Root. |
+| [6. Reporting](https://github.com/Nin-Kanong/Red-Team-Offensive-Security/tree/main/6.%20Reporting) | Security findings and assessment-reporting material |
 
-Beyond tools, I believe in **clear documentation, structured reporting, and continuous learning** — which is why every lab in this repository follows a professional pentest format:  
-**Objective → Tools → Procedure → Results → Lessons Learned → Remediation**.
+> **Portfolio status:** A mix of notes, exercises, and developing projects. Some areas are planned or being revised while I focus on further training.
 
-> 💡 **My philosophy**: *"Security is not a product, but a process."* — Bruce Schneier
 
 ---
 
-## 🧭 About This Repository
 
-This is my **Cybersecurity Learning Portfolio**, designed to showcase my technical journey through:
+## My Assessment Approach
 
-- 🧠 **Networking & System Security**
-- 🔍 **Vulnerability Assessment, Risk Analysis & Penetration Testing**  
-- ⚙️ **Scripting, Automation, Exploitation & Security Tooling**  
-- 🛡️ **Incident Response & Defensive Techniques**
+```mermaid
+flowchart TD
+    %% Root Node
+    Start(["🎯 Pentest"])
+    
+    %% Phases
+    P1["1. Information Gathering"]
+    P2["2. Scanning Network"]
+    P3["3. Vulnerability Assessment"]
+    P4["4. Gaining Access"]
+    P5["5. Privilege Escalation"]
+    P6["6. Reporting"]
 
-It reflects my **hands-on practice**, **analytical mindset**, and **commitment to continuous learning** — serving both as a personal knowledge base and a public demonstration of my capabilities.
+    %% Connections
+    Start ==> P1
+    P1 ==> P2
+    P2 ==> P3
+    P3 ==> P4
+    P4 ==> P5
+    P5 ==> P6
 
----
+    %% Styling
+    classDef startNode fill:#2563eb,stroke:#60a5fa,stroke-width:3px,color:#fff,font-size:18px,font-weight:bold;
+    classDef phase fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc,font-size:14px;
+    classDef finalPhase fill:#0f766e,stroke:#2dd4bf,stroke-width:2px,color:#f8fafc,font-size:14px;
+    
+    class Start startNode;
+    class P1,P2,P3,P4,P5 phase;
+    class P6 finalPhase;
+```
 
-## Repository Structure
+For practical writeups, I aim to document the **objective, lab environment, tools, investigation steps, evidence, security impact, lessons learned, and recommended fixes**. I keep real credentials, private data, and out-of-scope targets out of public writeups.
 
-Each folder contains structured, documented labs with clear objectives, methodologies, and results.
+## Related Projects & Practice
 
-<details>
-<summary><b>01. Information Gathering</b></summary>
+| Project | Focus |
+|:--|:--|
+| [TryHackMe Labs](https://github.com/Nin-Kanong/TryHackMe-Labs) | Guided cybersecurity learning paths and lab notes |
+| [Capture The Flag — CTF](https://github.com/Nin-Kanong/Capture-The-Flag-CTF) | CTF exercises and problem-solving practice |
+| [Google-Dorking-k4](https://github.com/Nin-Kanong/Google-Dorking-k4) | OSINT search-query tooling and research |
+| [MSI-Exploit-k4](https://github.com/Nin-Kanong/MSI-Exploit-k4) | Experimental Windows security research tooling for authorized labs |
 
-01. Passive Reconnaissance (Footprinting)  
-02. Active Reconnaissance  
+**Looking for technical evidence?** Start with the linked projects and their individual source files or writeups. I am working to make reproducible results and remediation notes easier to find.
 
-</details>
+## Technologies I Study and Use in Labs
 
-<details>
-<summary><b>02. Scanning Network</b></summary>
+| Area | Tools & technologies |
+|:--|:--|
+| Networking & analysis | TCP/IP, Nmap, Wireshark, Netcat |
+| Web application security | Burp Suite, SQLMap, OWASP testing concepts |
+| Security validation | Metasploit, vulnerable lab machines, CVE research |
+| Authentication security | Hydra, John the Ripper, Hashcat (authorized labs) |
+| Systems | Kali Linux, Ubuntu, Windows, Windows Server / Active Directory |
+| Automation | Python, Bash, PowerShell; C/C++ fundamentals |
+| Documentation | Markdown, technical findings, remediation guidance |
 
-01. Host Discovery  
-02. Port Scanning  
-03. Service Version Detection  
-04. Operating System (OS) Detection  
-05. Nmap & Wireshark  
+## Training & Course Certificates
 
-</details>
+These links document training and course completion; they should **not** be confused with unrelated professional certification exams.
 
-<details>
-<summary><b>03. Vulnerability Assessment</b></summary>
+- [SalaCyber - Network & Cybersecurity Foundation](https://github.com/user-attachments/files/23103381/1.Nin.Kanong.pdf)
+- [SalaCyber - IT Security Essentials](https://github.com/user-attachments/files/23103411/2.Nin.Kanong.pdf)
+- [SalaCyber - Ethical Hacking Essentials](https://github.com/user-attachments/files/23103435/3.Nin.Kanong.pdf)
+- [SalaCyber - Cybersecurity Analyst & Operations](https://github.com/user-attachments/files/31230629/4.Cybersecurity.Analyst.Operation.pdf)
+- [Complete Ethical Hacking Masterclass](https://github.com/user-attachments/files/23103442/1.Nin.Kanong.pdf)
+- [Cisco Networking Academy - Ethical Hacker course](https://github.com/user-attachments/files/24969364/Ethical_Hacker_certificate_ninkanong200620-gmail-com_9f2ea453-5f60-4bf0-886f-bff6f3fea8a1.pdf)
+- [Cisco Networking Academy - CCNA: Introduction to Networks course](https://github.com/user-attachments/files/31230603/CCNA_Introduction_to_Networks.-.Nin.Kanong.pdf)
 
-01. Network Vulnerability Assessment  
-02. Web Application Vulnerability Assessment  
-03. Host-Based Vulnerability Assessment  
-04. Wireless Vulnerability Assessment  
+## Current Direction
 
-</details>
+I'm developing stronger skills in **hands-on penetration testing, web security, Windows/Active Directory security, vulnerability validation, and technical reporting**. My priority is to connect each technical topic to clear evidence and practical remediation.
 
-<details>
-<summary><b>04. Gaining Access</b></summary>
+## Ethical Use
 
-01. Exploiting Network Services  
-02. Web Application Exploits  
-03. Password Attacks  
-04. Exploiting Known Vulnerabilities  
-05. Social Engineering  
-06. Wireless Attack  
-07. DoS and DDoS Attack  
-08. Man-In-The-Middle Attack  
-
-</details>
-
-<details>
-<summary><b>05. Post Exploitation</b></summary>
-
-01. Privilege Escalation  
-02. Maintaining Access  
-
-</details>
-
-<details>
-<summary><b>06. Covering Tracks</b></summary>
-
-01. Overview  
-02. Log Manipulation  
-03. Command History  
-04. Artifact Removal  
-05. Timestomping  
-06. Anti-Forensics  
-
-</details>
-
-<details>
-<summary><b>07. Reporting</b></summary>
-
-01. Penetration Testing Report  
-02. SEHE Report  
-
-</details>
-
-<details>
-<summary><b>08. Programming & Scripting</b></summary>
-
-01. Python Programming  
-02. C and C++ Programming  
-
-</details>
-
-<details>
-<summary><b>09. Practice Labs</b></summary>
-
-01. TryHackMe  
-02. PortSwigger Web Academy  
-
-</details>
-
-<details>
-<summary><b>10. Final Assessment</b></summary>
-
-01. SEHE Final Exam  
-
-</details>
-
-
-📘 **Methodology**: Every lab follows a standardized structure to mirror real-world penetration testing workflows.
+This repository is for **education, authorized testing, and defensive understanding**. Exercises should be performed only on systems you own or have explicit permission to assess. Do not reuse exposed secrets, test public systems without authorization, or publish sensitive third-party data.
 
 ---
 
-## 💼 Projects
+<div align="center">
 
-Real-world simulations and academic work demonstrating applied skills:
+**Maintained by [Nin Kanong (K4N0NG)](https://github.com/Nin-Kanong)**  
+[LinkedIn](https://www.linkedin.com/in/nin-kanong/) · [GitHub](https://github.com/Nin-Kanong)
 
-| Project | Description |
-|----------|-------------|
-| **SEHE Final Exam Lab** | Built a full ethical hacking environment for final assessment |
-| **DVWA Level Exploits** | Web vuln discovery & exploitation (SQLi, XSS, CSRF) |
-| **Network Scanning Toolkit (Python)** | Automated host/service enumeration with Nmap + sockets |
-| **Security Validation Lab** | Controlled exploitation using Metasploit Framework |
-| **Web Recon Automation** | Scripts for Shodan & subdomain enumeration |
-| **Active Directory Practice Setup** | Windows Server AD + privilege escalation testing |
-| **VAPT Project** | End-to-end assessment: Network, Web, and Wireless |
+*Learn continuously · Test responsibly · Report clearly*
 
-📂 Each includes: problem statement, methodology, evidence (screenshots/logs), and a professional report.
+</div>
 
----
-
-## 🧾 Writeups & Documentation
-
-- 📝 Professionally formatted penetration test reports  
-- 🔍 Step-by-step vulnerability walkthroughs with mitigation advice  
-- 🧱 Summaries of OWASP Top 10, CVSS, and risk frameworks  
-- 📊 Diagrams, command outputs, and annotated screenshots  
-
-🎯 **Purpose**: To develop the ability to **communicate technical findings clearly** to both technical and non-technical stakeholders.
-
----
-
-## 🎓 Certifications & Skills
-
-### 🏅 Certifications
-- [SalaCyber: Network & Cybersecurity Foundation](https://github.com/user-attachments/files/23103381/1.Nin.Kanong.pdf)
-- [SalaCyber: IT Security Essential](https://github.com/user-attachments/files/23103411/2.Nin.Kanong.pdf)
-- [SalaCyber: Ethical Hacking Essential](https://github.com/user-attachments/files/23103435/3.Nin.Kanong.pdf)
-- [Cybersecurity Analyst & Operation.pdf](https://github.com/user-attachments/files/31230629/4.Cybersecurity.Analyst.Operation.pdf)
-- [Complete Ethical Hacking MasterClass](https://github.com/user-attachments/files/23103442/1.Nin.Kanong.pdf)
-- [Cisco Certified Ethical_Hacker](https://github.com/user-attachments/files/24969364/Ethical_Hacker_certificate_ninkanong200620-gmail-com_9f2ea453-5f60-4bf0-886f-bff6f3fea8a1.pdf)
-- [CCNA_Introduction_to_Networks](https://github.com/user-attachments/files/31230603/CCNA_Introduction_to_Networks.-.Nin.Kanong.pdf)
-
-
-
-
-### 🧰 Technical Skills
-| Category | Tools & Technologies |
-|-----------|----------------------|
-| **Networking** | Nmap, Wireshark, Netcat, Shodan, TCP/IP analysis, Windows Server, CCNA|
-| **Pentesting** | Metasploit, SQLMap, Hydra, JohnTheRipper, DVWA |
-| **Web Security** | Burp Suite, OWASP ZAP, Dirb, Nikto, Gobuster |
-| **Scripting** | Python (automation, enumeration), Bash, PowerShell |
-| **Operating Systems** | Kali Linux (primary), Ubuntu, Windows |
-| **Reporting** | Markdown, Typora, LibreOffice, Obsidian |
-| **Full Stack (Learning)** | Flask, Django, HTML/CSS, JavaScript, REST APIs |
-
-🧠 **Focus Areas**:  
-Networking • Risk Assessment • VAPT • Exploitation • Defensive Security • Technical Documentation
-
----
-
-## 🌱 Currently Learning
-
-I’m actively expanding my knowledge through:
-
-- 🔒 **Penetration Testing** (TryHackMe, HackTheBox, PortSwigger Academy)  
-- 📊 **Vulnerability Management & Risk Prioritization** (CVSS, asset criticality)  
-- 🌐 **Web App Security** (OWASP Top 10, bug bounty fundamentals)  
-- 🛡️ **Cyber Defense, SIEM, and Incident Response basics**  
-- 🤖 **Automation** (Python scripts for recon, reporting, and enumeration)  
-- 🧱 **front End Developer** HTML/CSS, Javascript, React
-
-### 🎯 Career Goal
-To become a **Professional Ethical Hacker / Penetration Tester**, contributing to real-world cybersecurity operations and helping organizations strengthen their digital defenses — especially in the **financial and digital banking sector**.
-
----
-
-## 🤝 Connect With Me
-
-- 💼 **LinkedIn**: [linkedin.com/in/nin-kanong](https://www.linkedin.com/in/nin-kanong/)  
-- 📧 **Email**: ninkanong200620@gmail.com  
-- 🐱 **GitHub**: [github.com/Nin-Kanong](https://github.com/Nin-Kanong)  
-- 📁 **Portfolio Repo**: [github.com/Nin-Kanong/pentest-writeups](https://github.com/Nin-Kanong/pentest-writeups)
-
----
-
-<p align="center"><b>💬 “Security is not a product, but a process.” — Bruce Schneier</b></p>
-
-<p align="center">
-  <i>🚀 Always Learning • 🔐 Always Ethical • 💡 Always Curious</i>
-</p>
