@@ -4,7 +4,7 @@
 # Privilege Escalation
 ### Linux · Windows · Active Directory
 
-**From Limited Access to Elevated Privileges — Through Authorized Security Testing**
+**From Limited Access to Elevated Privileges - Through Authorized Security Testing**
 
 ![Focus](https://img.shields.io/badge/Focus-Privilege%20Escalation-C62828?style=flat-square)
 ![Methodology](https://img.shields.io/badge/Approach-Enumerate%20%7C%20Validate%20%7C%20Report-1565C0?style=flat-square)
