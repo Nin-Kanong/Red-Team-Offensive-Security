@@ -41,9 +41,8 @@ This section documents my study of **network service exploitation, web applicati
 | Component | Technology |
 |---|---|
 | Attacker System | Kali Linux |
-| Virtualization | VMware / VirtualBox |
+| Virtualization | VMware |
 | Vulnerable Targets | Metasploitable, DVWA |
-| Training Platforms | TryHackMe, Hack The Box |
 | Core Tools | Nmap, Burp Suite, Metasploit, Netcat |
 
 ## Learning Progress
