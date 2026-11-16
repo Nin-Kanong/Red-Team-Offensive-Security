@@ -1,120 +1,75 @@
-<h1 align="center"> Gaining Access </h1> 
+
+<div align="center">
+
+# Gaining Access
+### Exploitation | Gaining Access | Initial Access
+
+**From Vulnerability Discovery to Controlled Exploitation**
+
+![Security](https://img.shields.io/badge/Focus-Offensive%20Security-red?style=flat-square)
+![Pentesting](https://img.shields.io/badge/Field-Penetration%20Testing-blue?style=flat-square)
+![Labs](https://img.shields.io/badge/Environment-Authorized%20Labs-green?style=flat-square)
+
+</div>
+
+---
 
 ## Overview
-This section focuses on the **Gaining Access** phase of penetration testing, where an attacker attempts to obtain initial access to a target system after identifying vulnerabilities.
 
-All content here is for **educational and defensive security purposes only**, performed in **legal lab environments** (TryHackMe, Hack The Box, local VMs).
+**Gaining Access** is a critical phase of penetration testing that focuses on validating vulnerabilities and demonstrating their security impact through controlled exploitation.
 
----
+This section documents my study of **network service exploitation, web application vulnerabilities, authentication weaknesses, CVE-based exploitation, and social engineering concepts**.
 
-## Objectives
-- Understand common techniques used to gain initial access
-- Learn how attackers exploit weak configurations and vulnerabilities
-- Build defensive awareness from an attacker’s perspective
-
----
+> **My Goal:** Understand how vulnerabilities are exploited, identify their root causes, and recommend effective security controls.
 
 ## Topics Covered
 
-### 1. Exploiting Network Services
-- Misconfigured services (FTP, SMB, SSH, HTTP)
-- Weak authentication mechanisms
-- Insecure service versions
-- Enumeration-to-exploitation workflow
+| # | Category | Key Concepts | Tools / Resources |
+|:---:|---|---|---|
+| 01 | Network Exploitation | FTP, SMB, SSH, service misconfigurations | Nmap, Netcat, Metasploit |
+| 02 | Web Exploitation | SQLi, XSS, file inclusion, command injection | Burp Suite, SQLMap |
+| 03 | Password Attacks | Weak passwords, credential reuse, offline cracking | Hydra, John, Hashcat |
+| 04 | CVE Exploitation | Vulnerability validation, CVSS, exploit research | Exploit-DB, CVE databases |
+| 05 | Social Engineering | Phishing concepts, human vulnerabilities, prevention | SET (lab theory) |
 
-**Tools & Techniques**
-- Nmap (service & version detection)
-- Netcat
-- Metasploit Framework
-- Manual exploitation techniques
-
----
-
-### 2. Web Application Exploits
-- SQL Injection
-- Cross-Site Scripting (XSS)
-- File inclusion vulnerabilities
-- Command injection basics
-
-**Tools & Techniques**
-- Burp Suite
-- SQLMap
-- Manual payload testing
-
----
-
-### 3. Password Attacks
-- Online vs offline password attacks
-- Weak password policies
-- Credential reuse
-
-**Tools & Techniques**
-- Hydra
-- John the Ripper
-- Hashcat
-- Wordlists (rockyou, custom lists)
-
----
-
-### 4. Exploiting Known Vulnerabilities (CVE-based)
-- Understanding CVEs and CVSS scores
-- Mapping vulnerabilities to exploits
-- Safe exploitation in lab environments
-
-**Tools & Resources**
-- Exploit-DB
-- CVE Details
-- Metasploit modules
-
----
-
-### 5. Social Engineering (Theory & Awareness)
-- Phishing attack concepts
-- Human factor vulnerabilities
-- Defensive awareness and prevention
-
-**Tools (Lab Use Only)**
-- Social Engineering Toolkit (SET)
-
----
-
-### 6. Wireless Attacks
-🚧 **Status: Not Started Yet**
-
-This section is planned for future study and will include:
-- Wireless network fundamentals
-- Wi-Fi security protocols (WEP, WPA, WPA2, WPA3)
-- Attack vectors and defensive measures
-
-> This content will be added after completing the required theoretical background and lab setup.
+**Note:** Not every vulnerability directly provides system access. The security impact depends on the vulnerability, environment, and exploitation conditions.
 
 ---
 
 ## Lab Environment
-- VirtualBox / VMware
-- Kali Linux
-- Vulnerable VMs (Metasploitable, DVWA)
-- TryHackMe / Hack The Box
 
----
+| Component | Technology |
+|---|---|
+| Attacker System | Kali Linux |
+| Virtualization | VMware / VirtualBox |
+| Vulnerable Targets | Metasploitable, DVWA |
+| Training Platforms | TryHackMe, Hack The Box |
+| Core Tools | Nmap, Burp Suite, Metasploit, Netcat |
 
-## Disclaimer
-This repository is intended **only for educational purposes**.  
-All techniques are practiced in controlled environments.  
-Unauthorized testing on real systems is illegal and unethical.
+## Learning Progress
 
----
-
-## Progress
 - [x] Network Service Exploitation
-- [x] Web Application Exploits
+- [x] Web Application Vulnerabilities
 - [x] Password Attacks
 - [x] CVE-based Exploitation
-- [x] Social Engineering (theory)
-- [ ] Wireless Attacks (planned)
+- [x] Social Engineering Fundamentals (Theory)
+
+> Progress reflects the learning topics documented in this section. Individual lab writeups provide supporting technical evidence.
+
+## Ethics & Authorization
+
+All practical activities are restricted to **authorized penetration testing labs, CTF environments, and personally controlled systems**.
+
+The objective is to strengthen security through responsible vulnerability research, testing, documentation, and remediation.
 
 ---
 
-## Author
-**Nin Kanong**  
-Entry-Level Cybersecurity / Blue Team Focus
+<div align="center">
+
+### Maintained by [Nin-Kanong](https://github.com/Nin-Kanong)
+
+**Aspiring Penetration Tester | Offensive Security & Red Team Learning**
+
+*Understand the weakness. Validate the risk. Strengthen the defense.*
+
+</div>
