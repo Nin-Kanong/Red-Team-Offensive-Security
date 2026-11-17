@@ -23,8 +23,6 @@
 
 
 
-
-
 ---
 
 ## 👋 About Me
@@ -47,6 +45,10 @@ This repository is a learning portfolio: it contains study notes, security exerc
 | [6. Reporting](https://github.com/Nin-Kanong/Red-Team-Offensive-Security/tree/main/6.%20Reporting) | Security findings and assessment-reporting material |
 
 > **Portfolio status:** A mix of notes, exercises, and developing projects. Some areas are planned or being revised while I focus on further training.
+
+
+
+> This my the hold JR Pestest: https://github.com/Nin-Kanong/TryHackMe-Labs/tree/main/02.%20Offensive%20Security/01.%20Junior%20Penetration%20Tester
 
 
 ---
