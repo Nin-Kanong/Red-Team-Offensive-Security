@@ -48,7 +48,7 @@ This repository is a learning portfolio: it contains study notes, security exerc
 
 
 
-> This my the hold JR Pestest: https://github.com/Nin-Kanong/TryHackMe-Labs/tree/main/02.%20Offensive%20Security/01.%20Junior%20Penetration%20Tester
+> This my the hold JR Pentest: https://github.com/Nin-Kanong/TryHackMe-Labs/tree/main/02.%20Offensive%20Security/01.%20Junior%20Penetration%20Tester
 
 
 ---
